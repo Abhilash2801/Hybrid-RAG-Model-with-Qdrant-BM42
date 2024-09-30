@@ -32,21 +32,6 @@ The project utilizes:
 - **Contextual Answer Generation**: Using the Groq API to provide detailed answers based on the retrieved content.
 - **Streamlit UI**: Simple interface to upload PDFs, ask questions, and get answers.
 
-## Project Structure
-Hybrid-RAG-Model-with-Qdrant-BM42/
-│
-├── src/
-│   ├── app.py               # Main Streamlit app for user interaction
-│   ├── indexer.py           # Script for indexing PDFs into Qdrant
-│   ├── retriever.py         # Script for retrieving relevant chunks based on the query
-│   └── generate.py          # Script for generating answers using Groq API
-│
-├── data/                    # Folder to hold uploaded PDF files
-├── temp/                    # Temporary folder for storing indexed files
-└── README.md                # Project documentation
-
-
-
 ## Dependencies
 - Python 3.9 or later
 - PyPDF2
