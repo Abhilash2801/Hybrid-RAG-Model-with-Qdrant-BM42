@@ -1,0 +1,11 @@
+streamlit
+PyPDF2
+qdrant-client
+groq
+sentence-transformers
+fastembed
+torch
+transformers
+langchain
+typing-extensions  # This is often needed for typing-related features
+uuid
