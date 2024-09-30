@@ -1,5 +1,5 @@
 # Hybrid-RAG-Model-with-Qdrant-BM42-and-mixtral-8x7b
-
+![Hybrid-RAG-Model-with-Qdrant-BM42-and-mixtral-8x7b](img/screenshot.png)
 This project implements a **Hybrid Retrieval Augmented Generation (RAG) model** that leverages **Qdrant**, a vector database, and BM42 for efficient document retrieval and question answering. The solution combines **sparse** (BM42) and **dense** embeddings to perform hybrid searches, along with language model generation to provide concise answers based on retrieved context.
 
 ## Table of Contents
